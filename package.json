@@ -7,7 +7,7 @@
   "author": "colder <colder@vitarn.com>",
   "license": "MIT",
   "scripts": {
-    "test": "tap --cov test"
+    "test": "tap -J --strict --cov test"
   },
   "dependencies": {
     "chalk": "^2.0.0",
