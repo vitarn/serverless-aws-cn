@@ -8,6 +8,9 @@ Serverless plugin compatible with aws cn
 
 ## Example:
 
+`npm i -g serverless@1.27.0`
+`npm i --save-dev serverless-aws-cn`
+
 ```yml
 service:
   name: demo
