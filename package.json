@@ -1,6 +1,6 @@
 {
   "name": "serverless-aws-cn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Serverless plugin compatible with aws cn",
   "main": "lib",
   "repository": "https://github.com/vitarn/serverless-aws-cn.git",
