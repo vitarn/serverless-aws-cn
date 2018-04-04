@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - node
+  - 8
+  - 6
+  - 4
+
+branches:
+  only:
+    - master
+    - /^greenkeeper/.*$/
+
+cache: yarn
+
+before_install:
+  - which npx || npm i -g npx
+
+after_success:
+  - npx codecov
+
+notifications:
+  email: false

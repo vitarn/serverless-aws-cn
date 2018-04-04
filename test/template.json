@@ -1,0 +1,23 @@
+{
+    "Resources": {
+        "TestLambdaPermissionApiGateway": {
+            "Type": "AWS::Lambda::Permission",
+            "Properties": {
+                "Principal": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "apigateway.",
+                            {
+                                "Ref": "AWS::URLSuffix"
+                            }
+                        ]
+                    ]
+                }
+            }
+        },
+        "ApiGatewayMethodTestGet": {
+            "Type": "AWS::ApiGateway::Method"
+        }
+    }
+}
