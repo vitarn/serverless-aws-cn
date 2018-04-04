@@ -16,7 +16,7 @@ before_install:
   - which npx || npm i -g npx
 
 after_success:
-  - tap --coverage-report=lcov && npx codecov
+  - yarn coverage && npx codecov
 
 notifications:
   email: false
