@@ -1,4 +1,6 @@
 # serverless-aws-cn
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/vitarn/serverless-aws-cn.svg)](https://greenkeeper.io/)
 Serverless plugin compatible with aws cn
 
 [![License][ico-license]][link-license]
